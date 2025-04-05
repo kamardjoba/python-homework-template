@@ -13,7 +13,7 @@ jobs:
     - name: Устанавливаем Python
       uses: actions/setup-python@v4
       with:
-        python-version: 3.10  # или 3.11 — подбери под свой проект
+        python-version: 3.11  # или 3.11 — подбери под свой проект
 
     - name: Устанавливаем зависимости
       run: |
